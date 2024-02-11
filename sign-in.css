@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.sign-in{
+    width: 100%;
+    height: 57rem;
+    background-image: url(./source/Image/header-image.jpeg);
+}
+
+header{
+    display: flex;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+img{
+    width: 150px;
+    height: 100pxpx;
+}
+
+.fixed-width{
+    width: 80%;
+    margin: auto;
+
+}
+
+.body-text{
+    height: 500px;
+    width: 450px;
+    background-color: rgba(0, 0, 0, 0.813);
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+}
+
+.text{
+    padding-top: 60px;
+    padding-left: 60px;
+    /* padding-right: 60px; */
+    color: white;
+}
+
+input{
+    background-color: #1c1b1baf;
+    outline: 0;
+    border: 1px solid white;
+    width: 280px;
+    height: 20px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    /* background: transparent; */
+    color: inherit;
+}
+
+.button{
+    width: 280px;
+    height: 20px;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    margin: 13px;
+}
+
+.remember{
+    float: left;
+    color: white;
+    margin-left: 1rem;
+}
+
+.help{
+    float: right;
+    color: white;
+    margin-right: 5rem;
+}
+
+.content{
+    color: #777;
+    margin-top: 3rem;
+    vertical-align: middle;
+    margin-left: 70px;
+    text-align: left;
+
+}
+
+form .log{
+    padding: 15px 5px;
+}
+
+form .new{
+    padding: 10px 5px; 
+}
+
+form  a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+small a{
+    color: blue;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.footer{
+    margin-top: 70px;
+    padding: 10px 15% 10px;
+    color: #777;
+    padding: 30px 120px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.footer h2{
+    font-size:18px ;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.footer .col{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+
+.footer .col a{
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+    color: #777;
+    font-size: 14px;
+}
+
+
+.footer .row{
+    align-items: flex-start;
+    padding: 10px 0;
+    display: flex;
+}
+
+.footer .language-btn{
+    display: inline-flex;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.language-btn img{
+    width: 10px;
+    margin-left: 10px;
+    justify-items: center;
+    margin-bottom:10px ;
+}
+
+.language-btn{
+    display: inline-flex;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+
+}
+
